@@ -1,0 +1,81 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\himanshu.y.sharma\\Desktop\\Spotify\\Spotify\\Spotify\\Spotify.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\himanshu.y.sharma\\Desktop\\Spotify\\Spotify\\Spotify\\Spotify.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\himanshu.y.sharma\\Desktop\\Spotify\\Spotify\\Spotify\\Spotify.csproj",
+        "projectName": "Spotify",
+        "projectPath": "C:\\Users\\himanshu.y.sharma\\Desktop\\Spotify\\Spotify\\Spotify\\Spotify.csproj",
+        "packagesPath": "C:\\Users\\himanshu.y.sharma\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\himanshu.y.sharma\\Desktop\\Spotify\\Spotify\\Spotify\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\himanshu.y.sharma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\NuGet\\Config": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/incadeadev/_packaging/incadea_nuget%40Local/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "Community.VisualStudio.Toolkit.17": {
+              "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[17.0.507, )"
+            },
+            "Community.VisualStudio.VSCT": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[16.0.29.6, )"
+            },
+            "Microsoft.VSSDK.BuildTools": {
+              "target": "Package",
+              "version": "[17.9.3168, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.Web.WebView2": {
+              "target": "Package",
+              "version": "[1.0.2903.40, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-arm64": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
